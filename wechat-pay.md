@@ -1,17 +1,19 @@
 
 # 微信支付-业务流程时序图
 
-``` flow
-st=>start: Start:>https://www.zybuluo.com
-io=>inputoutput: verification
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-sub=>subroutine: Your Subroutine
-e=>end
+```python
+@requires_authorization
+def somefunc(param1='', param2=0):
+    '''A docstring'''
+    if param1 > param2: # interesting
+        print 'Greater'
+    return (param2 - param1 + 1) or None
 
-st->io->op->cond
-cond(yes)->e
-cond(no)->sub->io
+class SomeClass:
+    pass
+
+>>> message = '''interpreter
+... prompt'''
 ```
 
 ``` seq
