@@ -1,7 +1,7 @@
 
 # 微信支付-业务流程时序图
 
-```flow
+``` flow
 st=>start: Start:>https://www.zybuluo.com
 io=>inputoutput: verification
 op=>operation: Your Operation
@@ -14,7 +14,7 @@ cond(yes)->e
 cond(no)->sub->io
 ```
 
-```seq
+``` seq
 Title: sd H5网页支付模式
 participant 微信支付用户
 participant 微信客户端
