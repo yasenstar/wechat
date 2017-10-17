@@ -1,4 +1,4 @@
-``` graph TD;
+``` flow
     A-->B;
     A-->C;
     B-->D;
