@@ -17,7 +17,7 @@ sequenceDiagram
     John->Bob: How about you?
     Bob-->John: Jolly good!
 
-gantt
+``` gantt
         dateFormat  YYYY-MM-DD
         title Adding GANTT diagram functionality to mermaid
         section A section
@@ -32,3 +32,4 @@ gantt
         Future task in critical line        :crit, 5d
         Create tests for renderer           :2d
         Add to mermaid                      :1d
+111
