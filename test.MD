@@ -1,11 +1,11 @@
-```flow
+``` flow
     A-->B;
     A-->C;
     B-->D;
     C-->D;
 ```
 
-sequenceDiagram
+``` sequence
     participant Alice
     participant Bob
     Alice->John: Hello John, how are you?
