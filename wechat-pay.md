@@ -1,22 +1,5 @@
 
-# 学习MD
-
-## Python Sample
-```python
-@requires_authorization
-def somefunc(param1='', param2=0):
-    '''A docstring'''
-    if param1 > param2: # interesting
-        print 'Greater'
-    return (param2 - param1 + 1) or None
-
-class SomeClass:
-    pass
-
->>> message = '''interpreter
-... prompt'''
-```
-## 微信支付-业务流程时序图
+# 微信支付-业务流程时序图
 ```sequenceDiagram
 Title: sd H5网页支付模式
 participant 微信支付用户
@@ -54,6 +37,8 @@ Note right of 商户后台系统: [未收到支付通知]
 商户后台系统-->>微信客户端: 返回支付结果()
 微信客户端->微信客户端: 15.商户发货及支付后个性化页面提示()
 ```
+Picture as below:
+![时序图](wechatpay-H5-sequencechart.svg)
 
 edited by Xiaoqi Zhao [xiaoqi.com](http://www.xiaoqi.com)
 
