@@ -56,3 +56,8 @@ Note right of 商户后台系统: [未收到支付通知]
 ```
 
 edited by Xiaoqi Zhao [xiaoqi.com](http://www.xiaoqi.com)
+
+
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
