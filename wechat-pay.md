@@ -17,7 +17,7 @@ class SomeClass:
 ... prompt'''
 ```
 ## 微信支付-业务流程时序图
-```seq
+```sequenceDiagram
 Title: sd H5网页支付模式
 participant 微信支付用户
 participant 微信客户端
