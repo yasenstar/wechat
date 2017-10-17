@@ -37,12 +37,7 @@ Note right of 商户后台系统: [未收到支付通知]
 商户后台系统-->>微信客户端: 返回支付结果()
 微信客户端->微信客户端: 15.商户发货及支付后个性化页面提示()
 ```
-Picture as below:
+## Picture as below:
 ![时序图](wechatpay-H5-sequencechart.svg)
 
 edited by Xiaoqi Zhao [xiaoqi.com](http://www.xiaoqi.com)
-
-
-sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    John-->>Alice: Great!
