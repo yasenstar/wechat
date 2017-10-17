@@ -16,6 +16,7 @@
     John-->Alice: Great!
     John->Bob: How about you?
     Bob-->John: Jolly good!
+```
 
 ``` gantt
         dateFormat  YYYY-MM-DD
